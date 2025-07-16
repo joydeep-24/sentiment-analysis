@@ -1,6 +1,6 @@
 import praw
 from praw import reddit
-user_agent = "Reddit_Scrapper 1.0 by /u//FeatureChoice5036"
+user_agent = "Reddit Sentiment analysis by u/jdmandal24"
 reddit = praw.Reddit(
     client_id="YOUR_CLIENT_ID",
     client_secret="YOUR_SECRET_KEY",
