@@ -2,8 +2,8 @@ import praw
 from praw import reddit
 user_agent = "Reddit_Scrapper 1.0 by /u//FeatureChoice5036"
 reddit = praw.Reddit(
-    client_id="AjkI5QOq7ls3HNdV97X3ng",
-    client_secret="jFjWPKgRVBZlN04kIK4x4qLdyAIURg",
+    client_id="YOUR_CLIENT_ID",
+    client_secret="YOUR_SECRET_KEY",
     user_agent=user_agent
 )
 import pandas as pd
